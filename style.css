@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
 /* Utility */
 
 .clearfix{
@@ -15,6 +19,63 @@
 }
 
 .container{
-    max-width: 800px;
+    max-width: 1200px;
     margin: 0 auto;
 }
+
+a{
+    text-decoration: none;
+    color: #858585;
+}
+
+/* Header */
+.logo{
+    margin-bottom: 45px;
+}
+
+.logo img{
+    width: 163px;
+    height: 69px;
+}
+#navbar{
+    margin-bottom: 45px;
+}
+#navbar ul{
+    list-style-type: none;
+}
+
+ul li{
+    display: inline-block;
+    margin-right: 15px;
+    text-transform: uppercase;
+}
+
+/* Hero */
+
+.hero{
+    height: 500px;
+    width: 100%;
+    background-image: url(./img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    padding: 320px 50px 70px 50px;
+    color: white;
+    margin-bottom: 45px;
+}
+
+.hero-text{
+    width: 600px;
+}
+
+.hero h1{
+    font-size: 33px;
+    font-weight: 400;
+}
+
+.hero p{
+    font-size: 15px;
+}
+
+/* Main */
