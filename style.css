@@ -8,6 +8,8 @@
 
 body{
     font-family: 'Raleway', sans-serif;
+    color: #929292;
+    font-size: 15px;
 }
 
 /* Utility */
@@ -31,12 +33,6 @@ a{
     margin-bottom: 45px;
 }
 
-.grey{
-    color: #929292;
-}
-.small{
-    font-size: 15px;
-}
 /* Header */
 .logo{
     width: 185px;
@@ -91,7 +87,7 @@ ul li{
 
 .main{
     margin: 20px 0 10px 0;
-    height: 450px;
+    height: 550px;
     width: 100%;
 }
 
@@ -101,20 +97,23 @@ ul li{
     margin-bottom: 45px;
 }
 
-.main h3{
+.main-header h2{
+    font-size: 30px;
+    color: #000;
+}
+
+.main-section h3{
     font-weight: 400;
+    color: #787878;
 }
 
 .main .text *{
     margin-top: 15px;
 }
 
-.main-header h2{
-    font-size: 30px;
-}
 
 .box{
-    height: 535px;
+    height: 100%;
     float: left;
 }
 
@@ -150,6 +149,7 @@ ul li{
 footer{
     text-align: center;
     margin-bottom: 20px;
+    color: #000;
 }
 
 footer i{
